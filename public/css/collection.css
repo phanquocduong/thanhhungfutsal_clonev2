@@ -1,0 +1,159 @@
+.collection-wrap {
+    padding-top: 50px;
+}
+
+.filter-box {
+    border: 1px solid #ccc;
+}
+
+.filter-box + .filter-box {
+    margin-top: 15px;
+}
+
+.filter-heading {
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+}
+
+.filter-list {
+    padding: 15px;
+    max-height: 270px;
+    overflow: auto;
+    margin: 0;
+    list-style: none;
+    display: none;
+}
+
+.menu-link-list {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu-link-item a {
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 4px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.menu-link-item.active a {
+    border: 1px solid var(--black-color);
+}
+
+.filter-list.filter-list--active {
+    display: block;
+}
+
+.filter-item + .filter-item {
+    margin-top: 12px;
+}
+
+.filter-checkbox {
+    display: inline-block;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 2px solid rgba(14, 28, 34, 0.4);
+    cursor: pointer;
+}
+
+.filter-title {
+    color: rgba(14, 28, 34, 0.7);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    position: relative;
+    top: -3px;
+}
+
+.filter-list--flex {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.filter-list--flex.filter-list--active {
+    display: flex;
+}
+
+.filter-list--flex .filter-item {
+    min-width: calc(50% - 7px);
+}
+
+.filter-list--flex .filter-item + .filter-item {
+    margin-top: 0;
+}
+
+.collection-banner {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.collection-name {
+    font-size: 5rem;
+    line-height: 6rem;
+    color: var(--black-color);
+    margin: 0;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+
+.collection-main__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.sort-right {
+    display: flex;
+    align-items: center;
+}
+
+.sort-right__selection {
+    position: relative;
+}
+
+.sort-right__selection-list {
+    width: 190px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 1.6rem;
+    outline: none;
+    line-height: 2.4rem;
+    margin-left: 16px;
+    border: 1px solid var(--black-color);
+}
+
+.sort-right__title {
+    font-size: 1.4rem;
+    color: var(--black-color);
+}
+
+.collection-desc {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--black-color);
+    margin: 0;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.product-item__name {
+    height: 6.6rem;
+}

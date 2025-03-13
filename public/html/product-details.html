@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ThanhHung Futsal - Giày đá banh chính hãng</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <link rel="stylesheet" href="./public/css/grid.css" />
+        <link rel="stylesheet" href="./public/css/base.css" />
+        <link rel="stylesheet" href="./public/css/product-details.css" />
+        <link rel="stylesheet" href="./public/fonts/fontawesome-free-6.7.2-web/css/all.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./public/images/logo/logo.webp" alt="Thanh Hung Futsal" class="header__logo-img" />
+                    </a>
+                </div>
+
+                <div class="header__search">
+                    <input type="text" class="header__search-input" placeholder="Bạn đang tìm kiếm ..." />
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <div class="header__right">
+                    <ul class="header__right-list">
+                        <li class="header__right-item">
+                            <i class="header__user-icon fa-regular fa-user"></i>
+                            <div class="user-action">
+                                <a href="login.html" class="user-action__link">Đăng nhập</a>
+                                <a href="register.html" class="user-action__link">Đăng ký</a>
+                            </div>
+                        </li>
+                        <li class="header__right-item">
+                            <a href="cart.html" class="header__right-item-link">
+                                <i class="header__cart-icon fa-solid fa-bag-shopping"></i>
+                                <span class="header__cart-quantity">1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__item-link">TRANG CHỦ</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="allproduct.html" class="navbar__item-link">
+                            SẢN PHẨM
+                            <i class="navbar__item-icon-down fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="navbar-sub__list">
+                            <li class="navbar-sub__item">
+                                <a href="tfshoes.html" class="navbar-sub__item-link">GIÀY CỎ NHÂN TẠO</a>
+                            </li>
+                            <li class="navbar-sub__item">
+                                <a href="icshoes.html" class="navbar-sub__item-link">GIÀY FUTSAL</a>
+                            </li>
+                            <li class="navbar-sub__item">
+                                <a href="accessory.html" class="navbar-sub__item-link">PHỤ KIỆN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="tfshoes.html" class="navbar__item-link">GIÀY CỎ NHÂN TẠO</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="icshoes.html" class="navbar__item-link">GIÀY FUTSAL</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="accessory.html" class="navbar__item-link">PHỤ KIỆN</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="shoenews.html" class="navbar__item-link">TIN TỨC GIÀY</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__item-link">GIỚI THIỆU</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__item-link">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="crossbar">
+                <span class="crossbar__title">Thanh Hùng Futsal - Giày Đá Bóng Chính Hãng - 2013</span>
+            </div>
+
+            <div class="product-details grid wide">
+                <div class="row">
+                    <div class="col l-6 m-6 c-10">
+                        <div class="image-collection">
+                            <div class="extra-images">
+                                <div onclick="up()" class="change-img-btn">
+                                    <i class="change-img-btn__icon fa-solid fa-angle-up"></i>
+                                </div>
+                                <img
+                                    class="extra-images__item"
+                                    onclick="changeMainImage(this)"
+                                    src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-1_635973eb2b7e4fdb856c8f37d3de1f64_master.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="extra-images__item"
+                                    onclick="changeMainImage(this)"
+                                    src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="extra-images__item"
+                                    onclick="changeMainImage(this)"
+                                    src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-3_3f58ca8ec22d495780bd8cae33a1340a_master.jpg"
+                                    alt=""
+                                />
+                                <img
+                                    class="extra-images__item"
+                                    onclick="changeMainImage(this)"
+                                    src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-4_71ee6f8be6ea4aadaadc3fd0254f5f58_master.jpg"
+                                    alt=""
+                                />
+                                <div onclick="down()" class="change-img-btn swipe-down-btn">
+                                    <i class="change-img-btn__icon fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="main-image-wrap">
+                                <img
+                                    onclick="openImageModal(this)"
+                                    class="main-image-item"
+                                    src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-1_635973eb2b7e4fdb856c8f37d3de1f64_master.jpg"
+                                    alt=""
+                                />
+                                <div class="sale-off__tag">-54%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 c-10">
+                        <h1 class="product-name">NIKE REACT PHANTOM GX 2 PRO TF - FJ2583-300 - XANH MINT</h1>
+                        <ul class="product-type__list">
+                            <li class="product-type__item">Loại: Giày cỏ nhân tạo</li>
+                            <li class="product-type__item">Mã SP: 1</li>
+                        </ul>
+                        <div class="price-group">
+                            <span class="current-price">1,999,999đ</span>
+                            <span class="old-price">2,999,999đ</span>
+                            <div class="economical-price">
+                                (Tiết kiệm
+                                <span class="economical-price__press">500,000đ</span>)
+                            </div>
+                        </div>
+                        <div class="size-selection">
+                            <h4 class="size-selection__title">Kích thước:</h4>
+                            <ul class="size-selection__list">
+                                <li class="size-selection__item size-selection__item--selected">39</li>
+                                <li class="size-selection__item">40</li>
+                                <li class="size-selection__item">40.5</li>
+                                <li class="size-selection__item">41</li>
+                                <li class="size-selection__item">42</li>
+                                <li class="size-selection__item">42.5</li>
+                                <li class="size-selection__item">43</li>
+                                <li class="size-selection__item">44</li>
+                            </ul>
+                        </div>
+                        <div class="add-to-cart-action">
+                            <div class="quantity-selection">
+                                <span class="quantity-selection__title">Số lượng:</span>
+                                <div class="quantity-selection__action">
+                                    <input onclick="updateQuantity(-1)" type="button" class="quantity-selection__action-minus" value="-" />
+                                    <input type="text" class="quantity-selection__action-edit" value="1" />
+                                    <input onclick="updateQuantity(1)" type="button" class="quantity-selection__action-add" value="+" />
+                                </div>
+                            </div>
+                            <div class="add-basket-btn">
+                                <button class="add-basket-btn__title">Thêm vào giỏ</button>
+                            </div>
+                        </div>
+                        <button class="buy-now-btn">MUA NGAY</button>
+                        <div class="stores-address">
+                            <h4 class="stores-address__heading">
+                                <img
+                                    src="https://theme.hstatic.net/200000278317/1000929405/14/logo_store.png?v=999"
+                                    alt=""
+                                    class="stores-address__heading-icon"
+                                />
+                                Có TẠI 3 CỬA HÀNG
+                            </h4>
+                            <ul class="stores-address__list">
+                                <li class="stores-address__item">
+                                    <img
+                                        src="https://theme.hstatic.net/200000278317/1000929405/14/icon_store.png?v=999"
+                                        alt=""
+                                        class="stores-address__item-icon"
+                                    />
+                                    27 Đường D52, P. 12, Q. Tân Bình, TP. HCM | Hotline: 0901 377 722
+                                </li>
+                                <li class="stores-address__item">
+                                    <img
+                                        src="https://theme.hstatic.net/200000278317/1000929405/14/icon_store.png?v=999"
+                                        alt=""
+                                        class="stores-address__item-icon"
+                                    />
+                                    32A THẠCH THỊ THANH, P. TÂN ĐỊNH, Q. 1, TP. HCM | HOTLINE: 0901 710 730
+                                </li>
+                                <li class="stores-address__item">
+                                    <img
+                                        src="https://theme.hstatic.net/200000278317/1000929405/14/icon_store.png?v=999"
+                                        alt=""
+                                        class="stores-address__item-icon"
+                                    />
+                                    48 PHẠM VĂN BẠCH, P. 15, Q. TÂN BÌNH, TP. HCM | HOTLINE: 0901 710 780
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product-policy">
+                            <div class="product-policy__item">
+                                <img
+                                    src="https://theme.hstatic.net/200000278317/1000929405/14/pd_policy_1_img.png?v=999"
+                                    alt=""
+                                    class="product-policy__item-img"
+                                />
+                                <div class="product-policy__item-info">
+                                    <h3 class="product-policy__item-info-heading">ƯU ĐÃI TẶNG KÈM</h3>
+                                    <span class="product-policy__item-info-body"
+                                        >Tặng kèm vớ dệt kim và balô chống thấm đựng giày cho mỗi đơn hàng Giày đá bóng.</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="product-policy__item">
+                                <img
+                                    src="https://theme.hstatic.net/200000278317/1000929405/14/pd_policy_2_img.png?v=999"
+                                    alt=""
+                                    class="product-policy__item-img"
+                                />
+                                <div class="product-policy__item-info">
+                                    <h3 class="product-policy__item-info-heading">ĐỔI HÀNG DỄ DÀNG</h3>
+                                    <span class="product-policy__item-info-body"
+                                        >Hỗ trợ khách hàng đổi size hoặc mẫu trong vòng 7 ngày. (Sản phẩm chưa qua sử dụng).</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="product-policy__item">
+                                <img
+                                    src="https://theme.hstatic.net/200000278317/1000929405/14/pd_policy_3_img.png?v=999"
+                                    alt=""
+                                    class="product-policy__item-img"
+                                />
+                                <div class="product-policy__item-info">
+                                    <h3 class="product-policy__item-info-heading">CHÍNH SÁCH GIAO HÀNG</h3>
+                                    <span class="product-policy__item-info-body"
+                                        >COD Toàn quốc | Freeship toàn quốc khi khách hàng thanh toán chuyển khoản trước với đơn hàng Giày
+                                        đá bóng trên 1 triệu.</span
+                                    >
+                                </div>
+                            </div>
+                            <div class="product-policy__item">
+                                <img
+                                    src="https://theme.hstatic.net/200000278317/1000929405/14/pd_policy_4_img.png?v=999"
+                                    alt=""
+                                    class="product-policy__item-img"
+                                />
+                                <div class="product-policy__item-info">
+                                    <h3 class="product-policy__item-info-heading">THANH TOÁN TIỆN LỢI</h3>
+                                    <span class="product-policy__item-info-body"
+                                        >Chấp nhận các loại hình thanh toán bằng thẻ, tiền mặt, chuyển khoản.</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-dsc">
+                    <ul class="tab-title__list">
+                        <li class="tab-title__item tab-title__item--active">MÔ TẢ SẢN PHẨM</li>
+                        <li class="tab-title__item">ĐÁNH GIÁ</li>
+                        <li class="tab-title__item">CHÍNH SÁCH BẢO HÀNH</li>
+                        <li class="tab-title__item">LỜI KHUYÊN CHỌN GIÀY</li>
+                    </ul>
+                    <div class="row">
+                        <div class="col l-10 l-o-1 m-10 m-o-1 c-10 c-o-1 tab-title__content-wrap">
+                            <div class="tab-title__content tab-title__content--active">
+                                <p>
+                                    <span><strong>NIKE PHANTOM GX 2 PRO TF - GIÀY ĐÁ BÓNG SÂN CỎ NHÂN TẠO</strong></span>
+                                </p>
+                                <p>
+                                    <span
+                                        >Chơi bóng với sức mạnh và sự chính xác tuyệt đối cùng <strong>NIKE PHANTOM GX 2 PRO TF</strong>.
+                                        Với sự trở lại của những công nghệ tiên tiến nhất nhà Nike như sợi dệt Flyknit, công nghệ ACC (All
+                                        Conditions Control)....<strong>PHANTOM GX 2 PRO TF</strong> sẽ giúp bạn phát huy trọn vẹn khả năng
+                                        chơi bóng của bản thân trên sân cỏ!</span
+                                    >
+                                </p>
+                                <p>
+                                    <span><strong>Thông số kỹ thuật</strong></span>
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>NIKE PHANTOM GX 2 PRO TF</strong> là mẫu giày đá banh đế TF dành cho sân cỏ nhân tạo 5-7
+                                        người.
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>Phân khúc: <strong>Pro (cao cấp)</strong>.</span>
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>Phần upper </strong>được làm từ chất liệu <strong>sợi dệt Flyknit</strong> siêu mỏng và
+                                        nhẹ, nhưng vẫn giữ được độ bền và đàn hồi cần thiết để tối ưu cho những pha di chuyển linh hoạt của
+                                        người chơi trên sân cỏ. Trên bề mặt upper được trang bị <strong>công nghệ ACC</strong> giúp người
+                                        chơi có thể kiểm soát bóng tốt nhất trong mọi điều kiện thời tiết.</span
+                                    >
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>Công nghệ Strike Zone</strong> với các vân vòng tròn được in dập nổi ở những vùng tiếp xúc
+                                        bóng chủ yếu giúp tăng thêm độ xoáy cho những cú phất bóng và cứa lòng.
+                                    </span>
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>Hệ thống dây giày</strong> đặc trưng của silo Phantom tiếp tục được duy trì với thiết kế
+                                        lệch về phía má ngoài nhằm mở rộng diện tích sút và chuyền bóng.</span
+                                    >
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>Lưỡi gà và cổ giày</strong> được làm từ <strong>sợi dệt Flyknit</strong> với độ co giãn
+                                        cao, mang đến sự ôm chân chắc chắn nhưng không kém phần thoải mái. Với chất liệu đặc biệt này, người
+                                        chơi có thể xỏ chân vào giày dễ dàng hơn trước.
+                                    </span>
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>Đệm gót giày</strong> với chất liệu vải mềm mịn, tạo cảm giác ôm chân vừa vặn và dễ chịu.
+                                        Khung bọc gót được làm mềm hơn trước giúp hỗ trợ tốt hơn cho quá trình break-in. Đồng thời, chúng
+                                        còn làm giảm áp lực tác động lên khu vực gót chân người mang mà không gây ảnh hưởng đến cấu trúc và
+                                        sự ổn định của đôi giày.</span
+                                    >
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>Bộ đệm React </strong>tiếp tục được giữ nguyên trên thế hệ này. React chính là midsole có
+                                        độ êm ái và đàn hồi nhất trong số các bộ đệm thuộc nhà Swoosh, hỗ trợ tối đa các tình huống bật
+                                        nhảy, bứt tốc và di chuyển ở cường độ cao, đặc biệt là trong các pha xoay trở nhanh thường gặp khi
+                                        chơi bóng ở sân 5,7.</span
+                                    >
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong>Đế ngoài</strong> làm từ chất liệu cao su cao cấp với các đinh dạng Elip lớn nhỏ khác nhau,
+                                        hỗ trợ khả năng xử lý bóng bằng gầm và tăng cường độ bám sân.</span
+                                    >
+                                </p>
+                                <p>
+                                    <span
+                                        >Phù hợp với cầu thủ có <strong>thiên hướng</strong> rê dắt, kiểm soát và phân phối bóng, sử dụng kỹ
+                                        thuật.
+                                    </span>
+                                </p>
+                                <p>
+                                    <span>Bộ sưu tập:<strong> Mad Energy Pack</strong> (01/2025).</span>
+                                </p>
+                                <img
+                                    src="//file.hstatic.net/200000278317/file/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-8.jpg"
+                                />
+                                <img
+                                    src="//file.hstatic.net/200000278317/file/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-7.jpg"
+                                />
+                                <img
+                                    src="https://file.hstatic.net/200000278317/file/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-6.jpg"
+                                />
+                            </div>
+                            <div class="tab-title__content">
+                                <div class="review-item">
+                                    <img
+                                        class="review-item__avatar"
+                                        src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/343343431_1553649688498406_6703977582956480061_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFKwbo_5AEf8D2BNQfDHUR0clSkOxzipoZyVKQ7HOKmhin1hw9ZkyxqzdyN_-ONVZPOCMrEob4xcm1Muv_omb6Z&_nc_ohc=HSsVdpq3CUUQ7kNvgHHSxV5&_nc_oc=Adh0cd4isV_VXQmI_2DZr2sBm6WjwYVisQZkmojIAgFYosy1XAqewyTGF1dqiecRb9k&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=A_7Ctr_LvP29gmyP8vivVzp&oh=00_AYCQFvR8eiLBilO02ud-TycgP4Kn7mHzcAalc_vi5uoIuA&oe=678822CB"
+                                        alt=""
+                                    />
+                                    <div class="review-item__body">
+                                        <span class="review-item__name">Phan Quoc Duong</span>
+                                        <div class="review-item__rating">
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-regular fa-star"></i>
+                                        </div>
+                                        <span class="review-item__date">22/12/2024</span>
+                                        <p class="review-item__comment">Giày tốt lắm, mang đầm chân, sút tốt</p>
+                                        <div class="review-item__images">
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-item">
+                                    <img
+                                        class="review-item__avatar"
+                                        src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/343343431_1553649688498406_6703977582956480061_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFKwbo_5AEf8D2BNQfDHUR0clSkOxzipoZyVKQ7HOKmhin1hw9ZkyxqzdyN_-ONVZPOCMrEob4xcm1Muv_omb6Z&_nc_ohc=HSsVdpq3CUUQ7kNvgHHSxV5&_nc_oc=Adh0cd4isV_VXQmI_2DZr2sBm6WjwYVisQZkmojIAgFYosy1XAqewyTGF1dqiecRb9k&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=A_7Ctr_LvP29gmyP8vivVzp&oh=00_AYCQFvR8eiLBilO02ud-TycgP4Kn7mHzcAalc_vi5uoIuA&oe=678822CB"
+                                        alt=""
+                                    />
+                                    <div class="review-item__body">
+                                        <span class="review-item__name">Phan Quoc Duong</span>
+                                        <div class="review-item__rating">
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-regular fa-star"></i>
+                                        </div>
+                                        <span class="review-item__date">22/12/2024</span>
+                                        <p class="review-item__comment">Giày tốt lắm, mang đầm chân, sút tốt</p>
+                                        <div class="review-item__images">
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review-item">
+                                    <img
+                                        class="review-item__avatar"
+                                        src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/343343431_1553649688498406_6703977582956480061_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFKwbo_5AEf8D2BNQfDHUR0clSkOxzipoZyVKQ7HOKmhin1hw9ZkyxqzdyN_-ONVZPOCMrEob4xcm1Muv_omb6Z&_nc_ohc=HSsVdpq3CUUQ7kNvgHHSxV5&_nc_oc=Adh0cd4isV_VXQmI_2DZr2sBm6WjwYVisQZkmojIAgFYosy1XAqewyTGF1dqiecRb9k&_nc_zt=23&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=A_7Ctr_LvP29gmyP8vivVzp&oh=00_AYCQFvR8eiLBilO02ud-TycgP4Kn7mHzcAalc_vi5uoIuA&oe=678822CB"
+                                        alt=""
+                                    />
+                                    <div class="review-item__body">
+                                        <span class="review-item__name">Phan Quoc Duong</span>
+                                        <div class="review-item__rating">
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-solid fa-star"></i>
+                                            <i class="star-icon fa-regular fa-star"></i>
+                                        </div>
+                                        <span class="review-item__date">22/12/2024</span>
+                                        <p class="review-item__comment">Giày tốt lắm, mang đầm chân, sút tốt</p>
+                                        <div class="review-item__images">
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                            <img
+                                                onclick="openImageModal(this)"
+                                                class="review-item__image"
+                                                src="https://product.hstatic.net/200000278317/product/sal-giay-da-bong-nike-react-phantom-gx-2-pro-tf-fj2583-300-xanh-mint-2_add06fc029754c98941893f67c100180_master.jpg"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagination">
+                                    <a href="" class="pagination-link">1</a>
+                                    <a href="" class="pagination-link">2</a>
+                                    <a href="" class="pagination-link">3</a>
+                                    <a href="" class="pagination-link">...</a>
+                                    <a href="" class="pagination-link">11</a>
+                                    <a href="" class="pagination-link__icon">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="tab-title__content">
+                                <p>
+                                    <span
+                                        >Thanh Hùng Futsal luôn nỗ lực mang đến trải nghiệm mua sắm tuyệt vời dành cho Khách Hàng từ việc đa
+                                        dạng hoá mẫu mã từ nhiều thương hiệu quốc tế nổi tiếng, dịch vụ tư vấn bán hàng online, offline và
+                                        những dịch vụ hậu mãi không ngừng được hoàn thiện.</span
+                                    >
+                                </p>
+                                <img src="//file.hstatic.net/200000278317/file/baohanh2_93b9597ceba746559f5ba19054546a1d.jpg" />
+                                <p><span>Dưới đây là chính sách bảo hành của Thanh Hùng Futsal.</span></p>
+                                <p>
+                                    <span><strong>ĐIỀU KIỆN BẢO HÀNH</strong></span>
+                                </p>
+                                <p>
+                                    <span>- Thanh Hùng Futsal hỗ trợ khách hàng <strong>bảo hành sửa chữa 6 tháng </strong>miễn phí:</span>
+                                </p>
+                                <ol>
+                                    <li>
+                                        <span>Sản phẩm phải do chính Shop Thanh Hùng Futsal phân phối.</span>
+                                    </li>
+                                    <li>
+                                        <span
+                                            >Sản phẩm còn trong thời hạn bảo hành và bị hư hỏng do lỗi kỹ thuật của Nhà sản xuất: hở keo,
+                                            đứt chỉ.</span
+                                        >
+                                    </li>
+                                    <li>
+                                        <span
+                                            >Khách hàng phải xuất trình được phiếu bảo hành sản phẩm hợp lệ hoặc có thông tin mua hàng đầy
+                                            đủ trên hệ thống.</span
+                                        >
+                                    </li>
+                                </ol>
+                                <p>
+                                    <span>- Thanh Hùng Futsal <strong>từ chối bảo hành</strong> sản phẩm đối với các trường hợp:</span>
+                                </p>
+                                <ol>
+                                    <li><span>Không có thông tin hoá đơn mua hàng</span></li>
+                                    <li>
+                                        <span
+                                            >Sản phẩm bị hư hỏng và lỗi từ phía khách hàng gây nên như trầy xước, đế mòn, sản phẩm không còn
+                                            nguyên vẹn do bị động vật cắn, bảo quản không tốt gây ẩm mốc, phai nắng, nóng chảy.</span
+                                        >
+                                    </li>
+                                </ol>
+                                <p>
+                                    <span
+                                        >Sau khi hết thời gian bảo hành, shop vẫn hỗ trợ sửa chữa giày với chi phí hợp lý tại các cơ sở sửa
+                                        chữa uy tín cho quý khách hàng trong suốt quá trình sử dụng.</span
+                                    >
+                                </p>
+                                <img src="//file.hstatic.net/200000278317/file/baohanh1_b702947d711c4ffca5a837f8c9363d1d.jpg" />
+                                <p>
+                                    <span><strong>THỜI GIAN BẢO HÀNH</strong></span>
+                                </p>
+                                <p>
+                                    <span
+                                        >Xử lý và trao trả sản phẩm đã được sửa chữa bảo hành cho khách hàng trong khoảng thời gian 05 ngày
+                                        làm việc kể từ khi tiếp nhận sản phẩm (trừ các tình huống đặc biệt hoặc phải tìm chất liệu khó để
+                                        thay thế, Shop sẽ liên hệ và đàm phán trực tiếp với khách hàng).</span
+                                    >
+                                </p>
+                            </div>
+                            <div class="tab-title__content">
+                                <p>
+                                    <span
+                                        >Giày đá banh chính hãng là một sản phẩm với công năng riêng biệt, chuyên dành cho những&nbsp;trận
+                                        thi đấu bóng đá, từ đó mà vật liệu, thiết kế và cách thi công giày&nbsp;cũng rất riêng, khác với
+                                        những dòng sản phẩm giày thông thường. Vậy nên để có được trải nghiệm "trên chân" tốt nhất, đặc biệt
+                                        là với những anh em chưa có nhiều kinh nghiệm trong việc chọn một đôi giày đá banh phù hợp với
+                                        mình,&nbsp;thì anh em có thể theo một số lời khuyên của ThanhHung Futsal như sau:</span
+                                    >
+                                </p>
+                                <p>
+                                    <span
+                                        ><strong
+                                            >1. Khi chọn size giày, anh em nên chọn size mà khi mang vào thì phần mũi giày và mũi chân
+                                            sẽ&nbsp;vừa với nhau&nbsp;( hoặc dư mũi khoảng&nbsp;0.5cm hoặc dư ít hơn tuỳ vào cảm giác của
+                                            anh em).</strong
+                                        ></span
+                                    >
+                                </p>
+                                <img
+                                    src="//file.hstatic.net/200000278317/file/trang-break-in-giay-2_8b96a8d5d72d462685947682b1963ea2.jpg"
+                                />
+                                <p>
+                                    <span
+                                        ><strong
+                                            >2. Với những đôi giày đá banh mới "cóng" thì bề ngang sẽ hơi bó làm anh em khó chịu vài trận
+                                            đầu (có thể sẽ làm anh em mất phong độ 1-2 trận đầu luôn), nhưng tầm trận thứ 4,&nbsp;thứ 5 thì
+                                            giày&nbsp;sẽ bắt đầu Break-in (giày sẽ mềm dần) và bắt đầu thuần chân của anh em.&nbsp;</strong
+                                        ></span
+                                    >
+                                </p>
+                                <p>
+                                    <span
+                                        ><em
+                                            >Lưu ý là trong khoảng thời gian để giày&nbsp;Break-in, khi ra sân anh em năng nổ chạy&nbsp;một
+                                            tý để giày nhanh thuần chân&nbsp;anh em hơn. Đừng ra sân khởi động nhẹ, sẽ làm giày lâu Break-in
+                                            hơn.</em
+                                        ></span
+                                    >
+                                </p>
+                                <img
+                                    src="//file.hstatic.net/200000278317/file/trang-break-in-giay-1_f006461552604f3bb0cccf4fe3b64c5e.jpg"
+                                />
+                                <p>
+                                    <span
+                                        ><strong
+                                            >3.&nbsp;Hãy luôn luôn ưu tiên đến cửa hàng để được đo kích thước chân thật chuẩn, và được thử
+                                            trực tiếp đôi giày trước khi quyết định mua. Ở Thanh Hùng Futsal, chúng mình luôn có bước đo
+                                            chân bằng dụng cụ chuyên dụng và luôn khuyến khích các bạn thử giày thật kỹ trước khi
+                                            mua.</strong
+                                        ></span
+                                    >
+                                </p>
+                                <img
+                                    src="//file.hstatic.net/200000278317/file/trang-break-in-giay-3_9804664335254ab3940fd6172881d3c7.jpg"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="related-products">
+                    <h2 class="related-products__title">SẢN PHẨM LIÊN QUAN</h2>
+                    <div class="row">
+                        <div class="col l-3 m-6 c-10">
+                            <div class="product-item">
+                                <a href="" class="product-item__link">
+                                    <div
+                                        class="product-item__img"
+                                        style="
+                                            background-image: url(https://product.hstatic.net/200000278317/product/iay-da-banh-nike-zoom-mercurial-vapor-15-pro-tf-dj5605-605-hong-xanh-1_90040ca4d4684d16b32e17c4dc577eb7_large.jpg);
+                                        "
+                                    ></div>
+                                </a>
+                                <a href="" class="product-item__link"
+                                    ><h4 class="product-item__name">NIKE ZOOM MERCURIAL VAPOR 15 PRO TF - DJ5605-605 - HỒNG/XANH</h4></a
+                                >
+                                <div class="product-item__action">
+                                    <div class="product-item__price">
+                                        <span class="product-item__price-current">1,990,000đ</span>
+                                        <span class="product-item__price-old">3,650,000đ</span>
+                                    </div>
+                                    <button class="add-to-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+                                </div>
+
+                                <div class="product-item__sale-off">-45%</div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-10">
+                            <div class="product-item">
+                                <a href="" class="product-item__link">
+                                    <div
+                                        class="product-item__img"
+                                        style="
+                                            background-image: url(https://product.hstatic.net/200000278317/product/iay-da-banh-nike-zoom-mercurial-vapor-15-pro-tf-dj5605-605-hong-xanh-1_90040ca4d4684d16b32e17c4dc577eb7_large.jpg);
+                                        "
+                                    ></div>
+                                </a>
+                                <a href="" class="product-item__link"
+                                    ><h4 class="product-item__name">NIKE ZOOM MERCURIAL VAPOR 15 PRO TF - DJ5605-605 - HỒNG/XANH</h4></a
+                                >
+                                <div class="product-item__action">
+                                    <div class="product-item__price">
+                                        <span class="product-item__price-current">1,990,000đ</span>
+                                        <span class="product-item__price-old">3,650,000đ</span>
+                                    </div>
+                                    <button class="add-to-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+                                </div>
+
+                                <div class="product-item__sale-off">-45%</div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-10">
+                            <div class="product-item">
+                                <a href="" class="product-item__link">
+                                    <div
+                                        class="product-item__img"
+                                        style="
+                                            background-image: url(https://product.hstatic.net/200000278317/product/iay-da-banh-nike-zoom-mercurial-vapor-15-pro-tf-dj5605-605-hong-xanh-1_90040ca4d4684d16b32e17c4dc577eb7_large.jpg);
+                                        "
+                                    ></div>
+                                </a>
+                                <a href="" class="product-item__link"
+                                    ><h4 class="product-item__name">NIKE ZOOM MERCURIAL VAPOR 15 PRO TF - DJ5605-605 - HỒNG/XANH</h4></a
+                                >
+                                <div class="product-item__action">
+                                    <div class="product-item__price">
+                                        <span class="product-item__price-current">1,990,000đ</span>
+                                        <span class="product-item__price-old">3,650,000đ</span>
+                                    </div>
+                                    <button class="add-to-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+                                </div>
+
+                                <div class="product-item__sale-off">-45%</div>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-6 c-10">
+                            <div class="product-item">
+                                <a href="" class="product-item__link">
+                                    <div
+                                        class="product-item__img"
+                                        style="
+                                            background-image: url(https://product.hstatic.net/200000278317/product/iay-da-banh-nike-zoom-mercurial-vapor-15-pro-tf-dj5605-605-hong-xanh-1_90040ca4d4684d16b32e17c4dc577eb7_large.jpg);
+                                        "
+                                    ></div>
+                                </a>
+                                <a href="" class="product-item__link"
+                                    ><h4 class="product-item__name">NIKE ZOOM MERCURIAL VAPOR 15 PRO TF - DJ5605-605 - HỒNG/XANH</h4></a
+                                >
+                                <div class="product-item__action">
+                                    <div class="product-item__price">
+                                        <span class="product-item__price-current">1,990,000đ</span>
+                                        <span class="product-item__price-old">3,650,000đ</span>
+                                    </div>
+                                    <button class="add-to-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+                                </div>
+
+                                <div class="product-item__sale-off">-45%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="see-more-btn">
+                        <a href="tfshoes.html" class="see-more-btn__link">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="image-modal" onclick="closeImageModal()">
+            <img class="image-modal__display" src="" onclick="event.stopPropagation()" />
+            <a class="image-modal__close">
+                <i class="fa-regular fa-circle-xmark"></i>
+            </a>
+        </div>
+
+        <footer>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 c-4 m-10">
+                        <div class="policy">
+                            <h3 class="policy__heading">CHÍNH SÁCH</h3>
+                            <ul class="policy__list">
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách bảo hành</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách đổi trả</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách giao nhận hàng</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách bảo mật</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chương trình Khách Hàng Thân Thiết</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/logo-bct.png?v=966"
+                                            alt=""
+                                            class="policy__item-img"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-4 c-4 m-10">
+                        <div class="about-us">
+                            <h3 class="about-us__heading">VỀ THF</h3>
+                            <ul class="policy__list">
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link">Về chúng tôi</a>
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link">Lĩnh vực kinh doanh</a>
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link"
+                                        >THF I: 27 Đường D52, P.12, Q.Tân Bình, TP.HCM | Hotline: 0901 377 722</a
+                                    >
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link"
+                                        >THF II: 32A Thạch Thị Thanh, P.Tân Định, Q.1, TP.HCM | Hotline: 0901 710 730</a
+                                    >
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link"
+                                        >THF III: 48 Phạm Văn Bạch, P.15, Q.Tân Bình, TP.HCM | Hotline: 0901 710 780</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-4 c-4 m-10">
+                        <div class="ins">
+                            <h3 class="ins__heading">INSTAGRAM</h3>
+                            <ul class="ins__list">
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_1_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_2_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_3_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_4_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_5_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_6_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_7_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_8_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_9_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-info">
+                    <div class="shop-info__heading">
+                        <ul class="shop-info__list">
+                            <li class="shop-info__item">THANH HÙNG FUTSAL</li>
+                            <li class="shop-info__item">GIÀY ĐÁ BÓNG CHÍNH HÃNG</li>
+                            <li class="shop-info__item">MỞ CỬA TỪ 9h - 21h</li>
+                        </ul>
+                    </div>
+                    <div class="shop-info__copyright">
+                        <span class="shop-info__copyright-dsc">© Bản quyền thuộc về THANH HÙNG FUTSAL</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./public/js/product-details.js"></script>
+    </body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ThanhHung Futsal - Giày đá banh chính hãng</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+        <link rel="stylesheet" href="./public/css/grid.css" />
+        <link rel="stylesheet" href="./public/css/base.css" />
+        <link rel="stylesheet" href="./public/css/payment.css" />
+        <link rel="stylesheet" href="./public/fonts/fontawesome-free-6.7.2-web/css/all.min.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="header-with-search">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./public/images/logo/logo.webp" alt="Thanh Hung Futsal" class="header__logo-img" />
+                    </a>
+                </div>
+
+                <div class="header__search">
+                    <input type="text" class="header__search-input" placeholder="Bạn đang tìm kiếm ..." />
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <div class="header__right">
+                    <ul class="header__right-list">
+                        <li class="header__right-item">
+                            <i class="header__user-icon fa-regular fa-user"></i>
+                            <div class="user-action">
+                                <a href="login.html" class="user-action__link">Đăng nhập</a>
+                                <a href="register.html" class="user-action__link">Đăng ký</a>
+                            </div>
+                        </li>
+                        <li class="header__right-item">
+                            <a href="cart.html" class="header__right-item-link">
+                                <i class="header__cart-icon fa-solid fa-bag-shopping"></i>
+                                <span class="header__cart-quantity">1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__item-link">TRANG CHỦ</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="allproduct.html" class="navbar__item-link">
+                            SẢN PHẨM
+                            <i class="navbar__item-icon-down fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="navbar-sub__list">
+                            <li class="navbar-sub__item">
+                                <a href="tfshoes.html" class="navbar-sub__item-link">GIÀY CỎ NHÂN TẠO</a>
+                            </li>
+                            <li class="navbar-sub__item">
+                                <a href="icshoes.html" class="navbar-sub__item-link">GIÀY FUTSAL</a>
+                            </li>
+                            <li class="navbar-sub__item">
+                                <a href="accessory.html" class="navbar-sub__item-link">PHỤ KIỆN</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="tfshoes.html" class="navbar__item-link">GIÀY CỎ NHÂN TẠO</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="icshoes.html" class="navbar__item-link">GIÀY FUTSAL</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="accessory.html" class="navbar__item-link">PHỤ KIỆN</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="shoenews.html" class="navbar__item-link">TIN TỨC GIÀY</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__item-link">GIỚI THIỆU</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__item-link">LIÊN HỆ</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="crossbar">
+                <span class="crossbar__title">Thanh Hùng Futsal - Giày Đá Bóng Chính Hãng - 2013</span>
+            </div>
+
+            <div class="grid wide">
+                <div class="main row">
+                    <div class="col l-7 m-12 c-12">
+                        <div class="container">
+                            <div class="main-content">
+                                <h2 class="payment-section-title">Thông tin giao hàng</h2>
+                                <div class="customer-info">
+                                    <i class="customer-info__icon fa-solid fa-user-large"></i>
+                                    <div class="customer-info__body">
+                                        <p class="customer-info__body-title">Phan Quốc Dương</p>
+                                        <a href="/logout" class="customer-info__body-logout">Đăng xuất</a>
+                                    </div>
+                                </div>
+                                <form action="/handle-payment" method="POST">
+                                    <input
+                                        required
+                                        type="text"
+                                        name="fullname"
+                                        class="form-name__control"
+                                        placeholder="Họ và tên"
+                                        value="['full_name']?>"
+                                    />
+                                    <div class="form-group">
+                                        <input
+                                            required
+                                            type="email"
+                                            name="email"
+                                            class="form-email__control"
+                                            placeholder="Email"
+                                            value="['email']?>"
+                                        />
+                                        <input
+                                            required
+                                            name="phone"
+                                            type="tel"
+                                            class="form-tel__control"
+                                            placeholder="Số điện thoại"
+                                            value="['phone']?>"
+                                        />
+                                    </div>
+                                    <div class="address-group">
+                                        <input
+                                            required
+                                            type="text"
+                                            name="address"
+                                            class="form-address__control"
+                                            placeholder="Địa chỉ"
+                                            value="['address']?>"
+                                        />
+                                        <div class="form-group">
+                                            <select id="province" required name="province" class="address-select">
+                                                <option value="">Tỉnh / thành</option>
+                                                <option value="">Bến Tre</option>
+                                            </select>
+                                            <select required id="district" name="district" class="address-select" disabled>
+                                                <option value="">Quận / huyện</option>
+                                            </select>
+                                            <select required id="ward" name="ward" class="address-select" disabled>
+                                                <option value="">Phường / xã</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <input type="text" name="note" class="form-note__control" placeholder="Ghi chú" />
+                                    <h2 class="payment-section-title">Phương thức thanh toán</h2>
+                                    <label onclick="closeTransferInformation()" for="cod" class="methods">
+                                        <input required id="cod" type="radio" name="method" class="methods-check" value="Tiền mặt" />
+                                        <div class="methods-content">
+                                            <img
+                                                src="https://hstatic.net/0/0/global/design/seller/image/payment/cod.svg?v=6"
+                                                alt="Thanh toán khi giao hàng"
+                                                class="methods-content__img"
+                                            />
+                                            <span class="methods-content__title">Thanh toán khi giao hàng (COD)</span>
+                                        </div>
+                                    </label>
+                                    <label onclick="openTransferInformation()" for="transfer" class="methods">
+                                        <input
+                                            required
+                                            id="transfer"
+                                            type="radio"
+                                            name="method"
+                                            class="methods-check"
+                                            value="Chuyển khoản"
+                                        />
+                                        <div class="methods-content">
+                                            <img
+                                                src="https://hstatic.net/0/0/global/design/seller/image/payment/other.svg?v=6"
+                                                alt="Chuyển khoản qua ngân hàng"
+                                                class="methods-content__img"
+                                            />
+                                            <span class="methods-content__title">Chuyển khoản qua ngân hàng</span>
+                                        </div>
+                                    </label>
+                                    <div class="transfer-information">
+                                        <h2 class="transfer-information__title">
+                                            Vui lòng nhập email của bạn trong phần nội dung thanh toán. Đơn hàng sẽ được giao sau khi tiền
+                                            đã chuyển.
+                                        </h2>
+                                        <img class="transfer-information__img" src="./public/images/qrcode/qrcode.jpg" alt="QR code" />
+                                    </div>
+                                    <div class="step-footer">
+                                        <a href="/cart" class="step-footer-previous-link">Giỏ hàng</a>
+                                        <input id="total-payment-hidden" type="hidden" name="total" value="0" />
+                                        <input id="discount-id" type="hidden" name="discount-id" value="1" />
+                                        <input type="hidden" class="transport-fee__price--hidden" name="transport-fee" value="0" />
+                                        <button class="step-footer-continue-btn">Hoàn tất đơn hàng</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-wrap col l-5 m-12 c-12">
+                        <div class="sidebar">
+                            <div class="product-order">
+                                <div class="product-order__thumbnail">
+                                    <img src="./public/images/products/product-1.webp" alt="" class="product-order__img" />
+                                    <span class="product-order__quantity">1</span>
+                                </div>
+                                <div class="product-order__dsc">
+                                    <span class="product-order__dsc-name">NIKE ZOOM MERCURIAL VAPOR 15 ACADEMY TF - TRẮNG KEM</span>
+                                    <span class="product-order__dsc-type">41</span>
+                                </div>
+                                <div class="product-order__price">5,000,000đ</div>
+                            </div>
+                            <div class="discount-code">
+                                <input id="discount-code" type="text" class="discount-code__input" placeholder="Mã giảm giá" />
+                                <button id="apply-discount" class="discount-code__btn">Sử dụng</button>
+                            </div>
+                            <div class="form-message"></div>
+                            <div class="payment-details">
+                                <div class="provisional">
+                                    <span class="provisional-title">Tạm tính</span>
+                                    <span class="provisional-price">5,000,000đ</span>
+                                </div>
+                                <div class="transport-fee">
+                                    <span class="transport-fee__title">Phí vận chuyển</span>
+                                    <span class="transport-fee__price">-</span>
+                                </div>
+                            </div>
+                            <div class="total-payment">
+                                <span class="total-payment__title">Tổng cộng</span>
+                                <span class="total-payment__price">
+                                    <span class="total-payment__price-unit">VND</span>
+                                    <span id="total-payment" class="total-payment__price-main">5,000,000đ</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 c-4 m-10">
+                        <div class="policy">
+                            <h3 class="policy__heading">CHÍNH SÁCH</h3>
+                            <ul class="policy__list">
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách bảo hành</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách đổi trả</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách giao nhận hàng</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chính sách bảo mật</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">Chương trình Khách Hàng Thân Thiết</a>
+                                </li>
+                                <li class="policy__item">
+                                    <a href="" class="policy__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/logo-bct.png?v=966"
+                                            alt=""
+                                            class="policy__item-img"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-4 c-4 m-10">
+                        <div class="about-us">
+                            <h3 class="about-us__heading">VỀ THF</h3>
+                            <ul class="policy__list">
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link">Về chúng tôi</a>
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link">Lĩnh vực kinh doanh</a>
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link"
+                                        >THF I: 27 Đường D52, P.12, Q.Tân Bình, TP.HCM | Hotline: 0901 377 722</a
+                                    >
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link"
+                                        >THF II: 32A Thạch Thị Thanh, P.Tân Định, Q.1, TP.HCM | Hotline: 0901 710 730</a
+                                    >
+                                </li>
+                                <li class="about-us__item">
+                                    <a href="" class="about-us__item-link"
+                                        >THF III: 48 Phạm Văn Bạch, P.15, Q.Tân Bình, TP.HCM | Hotline: 0901 710 780</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-4 c-4 m-10">
+                        <div class="ins">
+                            <h3 class="ins__heading">INSTAGRAM</h3>
+                            <ul class="ins__list">
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_1_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_2_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_3_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_4_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_5_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_6_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_7_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_8_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                                <li class="ins__item">
+                                    <a href="" class="ins__item-link">
+                                        <img
+                                            src="https://theme.hstatic.net/200000278317/1000929405/14/instagram_9_large.jpg?v=966"
+                                            alt=""
+                                            class="ins__item-img"
+                                        />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="shop-info">
+                    <div class="shop-info__heading">
+                        <ul class="shop-info__list">
+                            <li class="shop-info__item">THANH HÙNG FUTSAL</li>
+                            <li class="shop-info__item">GIÀY ĐÁ BÓNG CHÍNH HÃNG</li>
+                            <li class="shop-info__item">MỞ CỬA TỪ 9h - 21h</li>
+                        </ul>
+                    </div>
+                    <div class="shop-info__copyright">
+                        <span class="shop-info__copyright-dsc">© Bản quyền thuộc về THANH HÙNG FUTSAL</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./public/js/payment.js"></script>
+    </body>
+</html>

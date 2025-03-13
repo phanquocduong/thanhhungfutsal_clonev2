@@ -1,0 +1,160 @@
+.contact-box {
+    padding: 48px 0 80px 0;
+}
+
+.contact-wrap {
+    padding: 0 15px;
+    max-width: 1140px;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 2.6rem;
+    color: var(--black-color);
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(238, 238, 238, 0.5);
+    line-height: 4rem;
+    margin-bottom: 54px;
+}
+
+.contact-info {
+    padding: 44px 48px;
+    border: 1px solid #e1e3e8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item {
+    width: 50%;
+}
+
+.box-title {
+    font-size: 20px;
+    color: var(--black-color);
+    line-height: 3.2rem;
+}
+
+.phone-icon {
+    margin-right: 16px;
+}
+
+.box-list {
+    list-style: none;
+    margin: 8px 0 0 0;
+}
+
+.box-item {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+
+.box-item:last-child {
+    margin-top: 8px;
+}
+
+.box-item__link {
+    color: var(--black-color);
+}
+
+.social-icon {
+    margin-right: 16px;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.facebook-icon {
+    font-size: 1.8rem;
+    margin-right: 8px;
+    position: relative;
+    top: 1px;
+}
+
+.instagram-icon {
+    font-size: 1.8rem;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+    left: -3px;
+}
+
+.contact-form {
+    padding: 32px 48px 42px 48px;
+    margin-top: 24px;
+    border: 1px solid #e1e3e8;
+}
+
+.name-email__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.half-form.form-group {
+    width: calc(50% - 12px);
+    margin: 0;
+}
+
+.label-form {
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    color: var(--black-color);
+    opacity: 0.6;
+    margin-bottom: 14px;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+
+.form-control {
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: 1px solid rgba(14, 28, 34, 0.4);
+    padding: 0 0 8px 0;
+    border-radius: 0;
+    width: 100%;
+    line-height: 3rem;
+    outline: none;
+}
+
+.content-form.form-group {
+    margin-top: 49px;
+    margin-bottom: 32px;
+}
+
+.content-form__input {
+    font-size: 1.8rem;
+    border: none;
+    border-bottom: 1px solid rgba(14, 28, 34, 0.4);
+    padding: 0 0 8px 0;
+    border-radius: 0;
+    width: 100%;
+    line-height: 3rem;
+    outline: none;
+}
+
+.contact-form__btn {
+    padding: 12px 80px;
+    background-color: white;
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+    border-radius: 0;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.contact-form__btn:hover {
+    background-color: var(--black-color);
+    color: white;
+}
+
+.store-img {
+    width: 100%;
+}
+
+.form-message {
+    color: #f4516c;
+    font-size: 1.4rem;
+    padding-top: 6px;
+}

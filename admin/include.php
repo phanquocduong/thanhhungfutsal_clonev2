@@ -1,0 +1,36 @@
+<?php
+    require_once '../models/Connect.php';
+    require_once '../models/ProductModel.php';
+    require_once '../models/CategoryModel.php';
+    require_once '../models/NewsModel.php';
+    require_once '../models/UserModel.php';
+    require_once '../models/OrderModel.php';
+    require_once '../models/OrderItemsModel.php';
+    require_once '../models/VoucherModel.php';
+    require_once '../models/ProductVariantsModel.php';
+    require_once '../services/CategoryService.php';
+    require_once '../services/ProductService.php';
+    require_once '../services/NewsService.php';
+    require_once '../services/UserService.php';
+    require_once '../services/OrderService.php';
+    require_once '../services/OrderItemsService.php';
+    require_once '../services/VoucherService.php';
+    require_once '../services/ProductVariantsService.php';
+    require_once '../services/MailService.php';
+    require_once 'controllers/AdminCategoryController.php';
+    require_once 'controllers/AdminProductController.php';
+    require_once 'controllers/AdminNewsController.php';
+    require_once 'controllers/AdminUserController.php';
+    require_once 'controllers/AdminOrderController.php';
+    require_once 'controllers/AdminVoucherController.php';
+    require_once 'controllers/AdminProductVariantsController.php';
+    require_once '../controllers/MailController.php';
+    require_once 'views/AdminCategoryView.php';
+    require_once 'views/AdminProductView.php';
+    require_once 'views/AdminNewsView.php';
+    require_once 'views/AdminUserView.php';
+    require_once 'views/AdminOrderView.php';
+    require_once 'views/AdminVoucherView.php';
+    require_once 'views/AdminProductVariantsView.php';
+    require_once '../views/MailView.php';
+?>

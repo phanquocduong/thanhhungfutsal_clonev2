@@ -1,0 +1,45 @@
+.container {
+    padding: 48px 0;
+    background-color: #f3f3f3;
+}
+
+.about-store {
+    background-color: white;
+    width: 840px;
+    padding: 48px 140px 40px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.about-store__title {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.about-store__content p {
+    margin: 16px 0;
+    text-align: justify;
+}
+
+.about-store__content span {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.about-store__content img {
+    width: 100%;
+}
+
+.about-store__content ul {
+    margin: 16px 0;
+}
+
+.about-store__content a {
+    color: #288ad6;
+    text-decoration: none;
+}
+
+.about-store__content .text-center {
+    text-align: center;
+}

@@ -1,0 +1,194 @@
+/* Slideshow */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.slideshow-prev,
+.slideshow-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.slideshow-prev {
+    left: 0;
+}
+
+.slideshow-next {
+    right: 0;
+}
+
+.new-products-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.category-img {
+    width: 100%;
+}
+
+.categories-section {
+    background-color: #f5f5f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.benefits-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.benefits-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit-item {
+    padding: 0 12px;
+    width: 140px;
+}
+
+.benefit-item__img {
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+}
+
+.benefit-item__name-wrap {
+    margin-top: 24px;
+}
+
+.benefit-item__name {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.stores-section {
+    padding: 50px 0;
+}
+
+.stores-img {
+    width: 100%;
+}
+
+.featured-categories-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-categories__header {
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0 0 40px 0;
+}
+
+.featured-category__title {
+    padding: 8px 14px;
+    font-size: 2.8rem;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 4rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+.featured-category__title--active {
+    font-weight: bold;
+    position: relative;
+    border-bottom: 2px solid var(--black-color);
+    cursor: default;
+}
+
+.featured-category__products {
+    display: none;
+}
+
+.featured-category__products.featured-category__products--active {
+    display: block;
+}
+
+.hot-sales-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.customers-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.customers-img {
+    width: 100%;
+}
+
+.news-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f5f5f7;
+}
+
+.newspaper-item {
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.newspaper-item__img {
+    width: 100%;
+}
+
+.newspaper__info-heading-link {
+    font-size: 2rem;
+    color: #4a4a4a;
+    font-weight: normal;
+    line-height: 2.6rem;
+    /* Đảm bảo nội dung hiển thị dấu ba chấm nếu vượt quá số dòng */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; /* Cần cho hiệu ứng dòng bị giới hạn */
+    -webkit-line-clamp: 2; /* Số dòng tối đa (thay đổi nếu cần) */
+    -webkit-box-orient: vertical; /* Hiển thị theo chiều dọc */
+    text-align: left;
+}
+
+.newspaper__info-heading {
+    margin: 0;
+}
+
+.newspaper__info {
+    padding: 16px 24px;
+}
+
+.newspaper__info-dsc {
+    font-size: 1.6rem;
+    color: var(--black-color);
+    line-height: 2.4rem;
+    /* Đảm bảo nội dung hiển thị dấu ba chấm nếu vượt quá số dòng */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; /* Cần cho hiệu ứng dòng bị giới hạn */
+    -webkit-line-clamp: 2; /* Số dòng tối đa (thay đổi nếu cần) */
+    -webkit-box-orient: vertical; /* Hiển thị theo chiều dọc */
+    text-align: left;
+    margin-top: 10px;
+}
